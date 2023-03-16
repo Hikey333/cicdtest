@@ -17,7 +17,7 @@ ARG MAVEN_VERSION=3.6.3
 ARG USER_HOME_DIR="/root"
 
 # 3- Define the SHA key to validate the maven download
-ARG SHA=1ea149f4e48bc7b34d554aef86f948eca7df4e7874e30caf449f3708e4f8487c71a5e5c072a05f17c60406176ebeeaf56b5f895090c7346f8238e2da06cf6ecd
+ARG SHA=c35a1803a6e70a126e80b2b3ae33eed961f83ed74d18fcd16909b2d44d7dada3203f1ffe726c17ef8dcca2dcaa9fca676987befeadc9b9f759967a8cb77181c0
 
 # 4- Define the URL where maven can be downloaded from
 ARG BASE_URL=https://dlcdn.apache.org/maven/maven-3/${MAVEN_VERSION}/binaries
