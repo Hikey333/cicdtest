@@ -45,4 +45,4 @@ COPY . /app
 #Making our working directory as /app
 WORKDIR /app
 
-CMD ["mvn test"]
+ENTRYPOINT ["mvn", "test"]
