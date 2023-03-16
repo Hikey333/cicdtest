@@ -44,3 +44,5 @@ ENV MAVEN_CONFIG "$USER_HOME_DIR/.m2"
 COPY . /app
 #Making our working directory as /app
 WORKDIR /app
+
+CMD ["mvn test"]
